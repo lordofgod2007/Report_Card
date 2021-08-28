@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<script src="rep.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card</title>
+    <link href="rep.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>
+    Report Card
+</h1>
+    <div class="container"><table border="1" class="inp_table">
+   <caption>Enter  your marks</caption>
+        <tr>
+            <th rowspan="2" colspan="1">
+                Name
+            </th>
+            <th colspan="4"> Your Marks</th>
+        </tr>
+        <tr>
+            <th>
+                Maths
+            </th>
+            <th>
+                Science
+            </th>
+            <th>
+                English
+            </th>
+            <th>
+                German
+            </th>
+        </tr>
+        <tr>
+            <td><input id="Name" type="text"></td>
+            <td><input id="Maths" type="text"></td>
+            <td><input id="Science" type="text"></td>
+            <td><input id="English" type="text"></td>
+            <td><input id="German" type="text"></td>
+
+        </tr>
+    </table>
+
+
+    <button style="height: 40px; width: 50px;" id="btn1" onclick="calc()">Press</button>
+    
+        <table border="1" class="otp_table">
+       <caption>
+           Your trash result
+       </caption>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Percentage
+                </th>
+
+
+
+                <th> Grade
+                </th>
+                <Th>
+                    pass/fail
+                </Th>
+            </tr>
+            <tr>
+                <td id="Otp_Name">
+                   
+                </td>
+                <td id="Otp_Percentage">
+                
+                </td>
+
+
+
+                <td id="Otp_Grade">
+                </td>
+                <td id="Otp_p/f">
+                    
+                </td>
+            </tr>
+        </table>
+   </div>
+</body>
+
+</html>
